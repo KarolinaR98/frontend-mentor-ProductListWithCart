@@ -1,0 +1,14 @@
+.products-list-container{
+    max-width: 750px;
+    margin-top: 50px;
+}
+
+.list-header{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+}
