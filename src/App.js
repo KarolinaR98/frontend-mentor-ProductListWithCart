@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import ProductList from './components/ProductsList';
 import Cart from './components/Cart';
+import OrderConfirmation from './components/OrderConfirmation';
 
 
 const App = () => {
