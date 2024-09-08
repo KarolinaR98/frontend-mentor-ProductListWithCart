@@ -1,9 +1,9 @@
 :root {
   --red: hsl(14, 86%, 42%);
   --green: hsl(159, 69%, 38%);
+  --white: hsl(0, 0%, 100%);
 
   --rose-50: hsl(24, 45%, 98%);
-  --rose-70: hsl(16, 73%, 97%);
   --rose-100: hsl(13, 31%, 94%);
   --rose-300: hsl(14, 25%, 72%);
   --rose-400: hsl(7, 20%, 60%);
@@ -18,11 +18,13 @@
 * {
   box-sizing: border-box;
 }
+html{
+  background-color: var(--rose-50);
+}
 
 body {
   margin: 0;
   font-family: var(--main-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--rose-100);
 }

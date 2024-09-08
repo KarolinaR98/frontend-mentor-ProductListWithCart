@@ -38,7 +38,7 @@
 }
 
 .button-no-in-cart{
-    background-color: var(--rose-50);
+    background-color: var(--white);
     color: var(--rose-900);
     border: 1px solid var(--rose-900);
     cursor: pointer;
@@ -53,7 +53,7 @@
     display: flex;
     justify-content: space-around;
     background-color: var(--red);
-    color: var(--rose-50);
+    color: var(--white);
 }
 
 .button .cart-icon {
@@ -67,7 +67,7 @@
     height: 20px;
     background-color: var(--red);
     border-radius: 50%;
-    border: 1px solid var(--rose-50);
+    border: 1px solid var(--white);
     cursor: pointer;
 }
 

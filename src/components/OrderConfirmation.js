@@ -40,8 +40,8 @@ const OrderConfirmation = (props) => {
                         <p className='order-total-txt'>Order Total</p>
                         <p className='order-total-price-summary'>{props.countTotalPrice(props.products)}</p>
                     </div>
-                    <button className='new-order-button' onClick={startNewOrder}>Start New Order</button>
                 </div>}
+                <button className='new-order-button' onClick={startNewOrder}>Start New Order</button>
             </div>
         </div>
     ) : "";

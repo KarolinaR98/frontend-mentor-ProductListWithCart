@@ -1,5 +1,5 @@
 .cart-container{
-    background-color: var(--rose-50);
+    background-color: var(--white);
     width: 30%;
     max-width: 400px;
     min-width: 300px;
@@ -76,7 +76,7 @@
     background-image: url('/public/images/icon-remove-item.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--rose-50);
+    background-color: var(--white);
     border: 2px solid var(--rose-300);
     border-radius: 50%;
     width: 20px;
@@ -106,7 +106,7 @@
 .delivery-info{
     display: flex;
     justify-content: center;
-    background-color: var(--rose-100);
+    background-color: var(--rose-50);
     border-radius: 10px;
 }
 
