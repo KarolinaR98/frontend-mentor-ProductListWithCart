@@ -9,7 +9,7 @@ const OrderConfirmation = (props) => {
     return (props.trigger) && (props.products) ? (
         <div className='OrderConfirmation'>
             <div className='confirmation-container'>
-                <img className='image' src='./images/icon-order-confirmed.svg' alt='' />
+                <img className='image' src='frontend-mentor-ProductListWithCart/images/icon-order-confirmed.svg' alt='' />
                 <h1 className='heading'>Order Confirmed</h1>
                 <p className='paragraph'>We hope you enjoy your food!</p>
                 {props.products && <div className='cart-summary'>

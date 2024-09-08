@@ -23,7 +23,7 @@ const Product = (props) => {
                     <img className={props.product.quantity ? 'selected' : 'not-selected'} src={props.product.image.mobile} alt="Product Image" />
                 </picture>
                 {props.product.quantity === 0 && <div className='button button-no-in-cart' role='button' tabIndex='0' onKeyDown={onKeyDown} onClick={()=>{onClick(props.product.id)}}>
-                    <img className='cart-icon' src='./images/icon-add-to-cart.svg' alt='Cart Icon' />
+                    <img className='cart-icon' src='frontend-mentor-ProductListWithCart/images/icon-add-to-cart.svg' alt='Cart Icon' />
                     <p>Add to Cart</p>
                 </div>}
                 {props.product.quantity > 0 && <div className='button button-added-to-cart'>

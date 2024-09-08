@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import ProductList from './components/ProductsList';
 import Cart from './components/Cart';
-import OrderConfirmation from './components/OrderConfirmation';
 
 
 const App = () => {
@@ -11,7 +10,7 @@ const App = () => {
   const [products, setProducts] = useState();
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch('frontend-mentor-ProductListWithCart/data.json')
       .then(res => res.json())
       .then((data) => {
         const dataHolder = data.map((item, index) => {
