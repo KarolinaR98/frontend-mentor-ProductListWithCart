@@ -10,7 +10,7 @@ const App = () => {
   const [products, setProducts] = useState();
 
   useEffect(() => {
-    fetch('./frontend-mentor-ProductListWithCart/data.js', {
+    fetch('data.js', {
     
       headers : { 
         'Content-Type': 'application/json',
