@@ -10,7 +10,13 @@ const App = () => {
   const [products, setProducts] = useState();
 
   useEffect(() => {
-    fetch('frontend-mentor-ProductListWithCart/data.json')
+    fetch('frontend-mentor-ProductListWithCart/data.json', {
+    
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+      })
       .then(res => res.json())
       .then((data) => {
         const dataHolder = data.map((item, index) => {
