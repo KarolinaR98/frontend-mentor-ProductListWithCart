@@ -50,14 +50,14 @@
 .cart-summary-items{
     max-height: 35vh;
     overflow: auto;
-    padding-right: 20px;
+    padding: 0 20px 15px 0;
 }
 
 .cart-summary-item{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--rose-100);
-    padding-bottom: 5px;
+    padding: 5px 0;
 }
 
 .cart-item-info{
@@ -138,4 +138,10 @@
     border: none;
     border-radius: 30px;
     cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .confirmation-container{
+        width: 95%;
+    }
 }

@@ -1,9 +1,11 @@
 .cart-container{
     background-color: var(--rose-50);
     width: 30%;
-    max-width: 380px;
+    max-width: 400px;
+    min-width: 300px;
     height: fit-content;
     margin-top: 50px;
+    margin-right: 5px;
     padding: 30px;
     border-radius: 10px;
 }
@@ -120,5 +122,17 @@
     border-radius: 30px;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .cart-container{
+        width: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .product{
+        width: 95%;
+    }
 }
 

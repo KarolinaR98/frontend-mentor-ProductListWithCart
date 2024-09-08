@@ -13,3 +13,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 768px) {
+    .products-list-container{
+        width: 90%;
+    }
+}

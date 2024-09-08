@@ -103,3 +103,18 @@
 .price {
     color: var(--red);
 }
+
+
+@media (max-width: 992px) {
+    .product{
+        width: 45%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .product{
+        width: 100%;
+        max-width: none;
+    }
+}
