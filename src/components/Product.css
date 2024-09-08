@@ -1,5 +1,5 @@
 .product {
-    width: 30%;
+    width: 28%;
     max-width: 250px;
     margin: 0 20px 20px 0;
 }
@@ -103,4 +103,3 @@
 .price {
     color: var(--red);
 }
-
