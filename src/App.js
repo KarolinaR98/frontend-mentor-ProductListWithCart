@@ -10,7 +10,7 @@ const App = () => {
   const [products, setProducts] = useState();
 
   useEffect(() => {
-    fetch('data.js', {
+    fetch('./data.json', {
     
       headers : { 
         'Content-Type': 'application/json',

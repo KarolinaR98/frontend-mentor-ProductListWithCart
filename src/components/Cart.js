@@ -51,7 +51,7 @@ const Cart = (props) => {
         <div className='cart-container'>
             <h2 className='cart-heading'>Your Cart ({props.products ? countItemsInCart(props.products) : '0'})</h2>
             {(!props.products || countItemsInCart(props.products) === 0) && <div className='empty-cart'>
-                <img src='frontend-mentor-ProductListWithCart/images/illustration-empty-cart.svg' alt='Empty Cart' />
+                <img src='./images/illustration-empty-cart.svg' alt='Empty Cart' />
                 <p>Your added items will apear here</p>
             </div>}
             {props.products && countItemsInCart(props.products) !== 0 && <div className='cart-with-items'>
@@ -83,7 +83,7 @@ const Cart = (props) => {
                     <p className='price-summary'>${countTotalPrice(props.products)}</p>
                 </div>
                 <div className='delivery-info'>
-                    <img src='frontend-mentor-ProductListWithCart/images/icon-carbon-neutral.svg' alt='Tree Icon' />
+                    <img src='./images/icon-carbon-neutral.svg' alt='Tree Icon' />
                     <p className='delivery-info-txt'>This is carbon-neutral delivery</p>
                 </div>
                 <button className='confirmation-button' onClick={confirmOrder}>Confirm Order</button>
