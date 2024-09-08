@@ -19,7 +19,7 @@ const OrderConfirmation = (props) => {
                                 return (
                                     <div key={product.id} className='cart-summary-item'>
                                         <div className='cart-item-info'>
-                                            <img className='cart-item-image' src={product.image.thumbnail} alt='Product Image' />
+                                            <img className='cart-item-image' src={product.image.thumbnail} alt='Product' />
                                             <div className='wrapper'>
                                                 <h3 className='cart-item-heading'>{product.name}</h3>
                                                 <div className='quantity-and-unit-price'>

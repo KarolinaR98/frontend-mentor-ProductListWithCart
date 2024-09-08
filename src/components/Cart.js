@@ -50,8 +50,8 @@ const Cart = (props) => {
     return (
         <div className='cart-container'>
             <h2 className='cart-heading'>Your Cart ({props.products ? countItemsInCart(props.products) : '0'})</h2>
-            {!props.products || countItemsInCart(props.products) === 0 && <div className='empty-cart'>
-                <img src='frontend-mentor-ProductListWithCart/images/illustration-empty-cart.svg' alt='Empty Cart Image' />
+            {(!props.products || countItemsInCart(props.products) === 0) && <div className='empty-cart'>
+                <img src='frontend-mentor-ProductListWithCart/images/illustration-empty-cart.svg' alt='Empty Cart' />
                 <p>Your added items will apear here</p>
             </div>}
             {props.products && countItemsInCart(props.products) !== 0 && <div className='cart-with-items'>
