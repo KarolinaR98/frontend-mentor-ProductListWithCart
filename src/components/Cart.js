@@ -72,6 +72,8 @@ const Cart = (props) => {
                                     <button className='remove-from-cart-button' onClick={() => { props.removeItems(product.id) }}></button>
                                 </div>
                             )
+                        } else {
+                            return null;
                         }
 
                     })}

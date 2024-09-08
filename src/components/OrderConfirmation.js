@@ -31,6 +31,8 @@ const OrderConfirmation = (props) => {
                                         <p className='price-in-general'>${(Number(product.price) * product.quantity).toFixed(2)}</p>
                                     </div>
                                 )
+                            } else {
+                                return null;
                             }
                         })}
                     </div>
